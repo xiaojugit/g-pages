@@ -13,9 +13,11 @@
   "license": "MIT",
   "author": "George <xiaoju.zh@qq.com>",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "main": "lib/index.js",
+  "bin": "bin/g-pages.js",
   "directories": {
     "lib": "lib"
   },
