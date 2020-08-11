@@ -16,36 +16,18 @@ $ npm install g-pages
 
 # or yarn
 $ yarn add g-pages
+
 ```
 
 ## Usage
 
 <!-- TODO: Introduction of API use -->
 
-```javascript
-const gPages = require('g-pages')
-const result = gPages('zce')
-// result => 'zce@zce.me'
+```shell
+g-pages build
+g-pages develop
+g-pages clean
 ```
-
-## API
-
-<!-- TODO: Introduction of API -->
-
-### gPages(name[, options])
-
-#### name
-
-- Type: `string`
-- Details: name string
-
-#### options
-
-##### host
-
-- Type: `string`
-- Details: host string
-- Default: `'zce.me'`
 
 ## Contributing
 
